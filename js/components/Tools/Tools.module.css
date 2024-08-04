@@ -1,0 +1,33 @@
+.root {
+  position: relative;
+
+  padding: 16px 12px;
+
+  border-radius: 6px;
+
+  background-color: var(--white);
+}
+
+.title {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: fit-content;
+}
+
+.tools {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.tool {
+  width: 15px;
+  height: 15px;
+}

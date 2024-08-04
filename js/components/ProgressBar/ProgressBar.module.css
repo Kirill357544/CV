@@ -1,0 +1,22 @@
+.root {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.title {
+  min-width: 70px;
+
+  font-size: var(--typography-s-font-size);
+  line-height: var(--typography-s-line-height);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.progress {
+  height: 11px;
+
+  border-radius: 3px;
+
+  background-color: var(--green);
+}

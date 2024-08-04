@@ -1,0 +1,16 @@
+@import './reset.css';
+@import './variables.css';
+
+body {
+  color: var(--black);
+  background-color: var(--black);
+
+  font-family: var(--font-family-main);
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

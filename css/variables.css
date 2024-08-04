@@ -1,0 +1,44 @@
+@import './fonts.css';
+
+:root {
+  /* COLORS */
+  --black: #000;
+  --white: #fff;
+
+  --gray-light: #f0f0f0;
+  --gray: #5c5c5c;
+  --gray-dark: #3f3d3d;
+
+  --green-light: #ddf163;
+  --green: #28d979;
+  --green-dark: #149063;
+  --green-transparent: rgba(126, 115, 18, 0.4);
+
+  /* TYPOGRAPHY */
+  --font-family-main: Poppins, Arial, sans-serif;
+
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+
+  --typography-xs-font-size: 8px;
+  --typography-xs-line-height: 12px;
+
+  --typography-s-font-size: 10px;
+  --typography-s-line-height: 15px;
+
+  --typography-m-font-size: 12px;
+  --typography-m-line-height: 18px;
+
+  --typography-l-font-size: 14px;
+  --typography-l-line-height: 15px;
+
+  --typography-xl-font-size: 14px;
+  --typography-xl-line-height: 21px;
+}

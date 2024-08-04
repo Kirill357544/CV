@@ -1,0 +1,46 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+
+  padding: 8px;
+
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.favorite {
+  color: var(--white);
+  background-color: var(--green);
+
+  & .tags {
+    color: var(--white);
+  }
+}
+
+.period {
+  font-size: var(--typography-s-font-size);
+  line-height: var(--typography-s-line-height);
+  font-weight: var(--font-weight-medium);
+}
+
+.title {
+  font-size: var(--typography-s-font-size);
+  line-height: var(--typography-s-line-height);
+  font-weight: var(--font-weight-medium);
+}
+
+.tags {
+  color: var(--green-dark);
+
+  font-size: var(--typography-xs-font-size);
+  line-height: var(--typography-xs-line-height);
+  font-weight: var(--font-weight-regular);
+}
+
+.institution {
+  font-size: var(--typography-xs-font-size);
+  line-height: var(--typography-xs-line-height);
+  font-weight: var(--font-weight-regular);
+}

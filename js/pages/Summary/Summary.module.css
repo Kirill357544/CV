@@ -1,0 +1,57 @@
+.root {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+
+  max-width: 595px;
+  background-color: var(--white);
+
+  padding: 20px;
+}
+
+.firstRow {
+  display: flex;
+  gap: 20px;
+}
+
+.secondRow {
+  display: flex;
+  gap: 20px;
+}
+
+.thirdRow {
+  display: flex;
+  gap: 20px;
+}
+
+
+
+
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.education {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 8px;
+
+  /* display: flex;
+  flex-wrap: wrap; */
+}

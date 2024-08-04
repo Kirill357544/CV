@@ -1,0 +1,17 @@
+.root {
+  padding: 12px;
+
+  border-radius: 12px;
+
+  color: var(--black);
+  background-color: var(--gray-light);
+}
+
+.title {
+  margin-bottom: 16px;
+
+  text-align: start;
+  font-size: var(--typography-xl-font-size);
+  line-height: var(--typography-xl-line-height);
+  font-weight: var(--font-weight-semi-bold);
+}

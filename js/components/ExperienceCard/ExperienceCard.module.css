@@ -1,0 +1,56 @@
+.root {
+  padding: 8px;
+
+  border-radius: 12px;
+
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.last {
+  color: var(--white);
+  background-color: var(--green);
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 8px;
+
+  font-size: var(--typography-xs-font-size);
+  line-height: var(--typography-xs-line-height);
+  font-weight: var(--font-weight-medium);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.role {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  font-size: var(--typography-s-font-size);
+  line-height: var(--typography-s-line-height);
+  font-weight: var(--font-weight-medium);
+}
+
+.description {
+  font-size: var(--typography-xs-font-size);
+  line-height: var(--typography-xs-line-height);
+  font-weight: var(--font-weight-regular);
+}
+
+.responsibilities {
+  padding-left: 20px;
+
+  text-align: start;
+  font-size: var(--typography-xs-font-size);
+  line-height: var(--typography-xs-line-height);
+  font-weight: var(--font-weight-regular);
+}
